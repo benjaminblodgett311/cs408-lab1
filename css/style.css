@@ -1,4 +1,97 @@
-h1{
-  border-color: #d3e644;
-  border-style: dashed;
+:root {
+    --col0:    #191f2b;
+    --col1:    #202938;
+    --col2:    #113355;
+    --col3:    #00aaff;
+    --col4:    #465d7c;
+    --col5:    #91A7C3;
+    --violet:  #9000c4;
+    --gold:    #cc9900;
+    --emerald: #60da86;
+}
+
+html {
+    background-color: var(--col0);
+}
+
+body {
+    font-size: 1em;
+	background-color: var(--col1);
+    color: var(--col5);
+    width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+    margin-top: 0;
+    padding-top: 3em;
+    padding-left: 3em;
+    padding-right: 3em;
+    padding-bottom: 3em;
+	font-family: sans-serif;
+}
+
+nav {
+    background-color: var(--col1);
+    outline: solid 1px;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    height: 40px;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    z-index: 1000;
+}
+
+nav a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--col5);
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 0;
+    padding: 20px 90px;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+nav a:hover {
+    background-color: var(--col3);
+    color: white;
+}
+
+nav a.active {
+    background-color: var(--col3);
+    color: black;
+}
+
+h1 {
+	font-family: "Roboto Mono", monospace;
+    font-size: 5em;
+}
+
+p {
+    font-size: 2em;
+}
+
+li {
+    font-size: 3em;
+}
+
+.header-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+}
+
+.header-image {
+    width: 40%;
+    height: auto;
 }

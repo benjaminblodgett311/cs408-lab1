@@ -10,7 +10,7 @@
  * This function prints the string 'Hello World' to the console
  */
 export function helloWorld() {
-    console.log('Hello World');
+    alert('MESSAGE FROM FBI: WARNING 999 viruses detected on your computer! You must send your full name, adress, credit card number, expiriton date, and the three wacky digits on the back to unlock your computer!!!111');
 }
 
 /**
